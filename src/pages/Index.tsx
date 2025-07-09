@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -19,7 +18,6 @@ import {
   Network,
   Database,
   BarChart3,
-  FileShield,
   Globe,
   Rocket,
   Brain,
@@ -204,7 +202,7 @@ const Index = () => {
               { icon: Zap, title: "Managed Detection & Response", desc: "with LimaCharlie", color: "cyber-red" },
               { icon: Brain, title: "WatsonX AI Embedded Chat", desc: "for SOC guidance", color: "cyber-blue" },
               { icon: BarChart3, title: "Executive Risk Dashboards", desc: "(MTTD, MTTR, SLA Compliance)", color: "cyber-green" },
-              { icon: FileShield, title: "Self-Assessments", desc: "with Audit-Ready Reports (HIPAA, CMMC, NIST)", color: "cyber-purple" },
+              { icon: Shield, title: "Self-Assessments", desc: "with Audit-Ready Reports (HIPAA, CMMC, NIST)", color: "cyber-purple" },
               { icon: Eye, title: "Real-time Threat Correlation", desc: "from Logs, Firewalls, SIEMs", color: "cyber-orange" },
               { icon: Network, title: "Digital Twin Simulation", desc: "for Preemptive Stress Testing (Phase II)", color: "cyber-blue" }
             ].map((capability, index) => (
@@ -410,7 +408,7 @@ const Index = () => {
               Schedule a Demo
             </Button>
             <Button size="lg" variant="outline" className="border-cyber-purple text-cyber-purple hover:bg-cyber-purple/10 px-8 py-4 text-lg hover-glow">
-              <FileShield className="mr-2 h-5 w-5" />
+              <Shield className="mr-2 h-5 w-5" />
               Download Product Brief
             </Button>
             <Button size="lg" variant="outline" className="border-cyber-green text-cyber-green hover:bg-cyber-green/10 px-8 py-4 text-lg hover-glow">
