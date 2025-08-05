@@ -56,7 +56,7 @@ const Index = () => {
               🧠 AI Agentic Cybersecurity Reimagined for the Modern SOC
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
-              <span className="glow-text">Stop Alert Fatigue.</span><br />
+              <span className="text-cyber-red">Stop Alert Fatigue.</span><br />
               <span className="bg-gradient-to-r from-cyber-blue to-cyber-purple bg-clip-text text-transparent">
                 Start AI-Powered Defense.
               </span>
