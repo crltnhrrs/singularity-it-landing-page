@@ -67,7 +67,7 @@ const Index = () => {
               you can focus on what matters: reducing risk, not chasing alerts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-cyber-blue hover:bg-cyber-blue/80 text-black font-semibold px-8 py-4 text-lg hover-glow">
+              <Button size="lg" className="bg-cyber-pink hover:bg-cyber-pink/80 text-white font-semibold px-8 py-4 text-lg hover-glow">
                 <Rocket className="mr-2 h-5 w-5" />
                 Get a Live Demo
               </Button>

@@ -73,6 +73,7 @@ export default {
 					green: '#10B981',
 					orange: '#F59E0B',
 					red: '#EF4444',
+					pink: '#EC4899',
 				}
 			},
 			borderRadius: {
